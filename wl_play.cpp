@@ -62,8 +62,8 @@ int buttonjoy[32] = {
     //bt_attack, bt_strafe, bt_use, bt_run, bt_strafeleft, bt_straferight, bt_esc, bt_pause,
     //bt_prevweapon, bt_nextweapon, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton,
     // GBZ controller
-    bt_nobutton, bt_nobutton, bt_nobutton, bt_attack, bt_escape, bt_run, bt_nobutton, bt_nextweapon, 
-    bt_straferight, bt_nobutton, bt_strafeleft, bt_use, bt_pause, bt_nobutton, bt_nobutton, bt_nobutton
+    bt_nobutton, bt_nobutton, bt_nobutton, bt_attack, bt_esc, bt_run, bt_nobutton, bt_nextweapon, 
+    bt_straferight, bt_nobutton, bt_strafeleft, bt_use, bt_pause, bt_nobutton, bt_nobutton, bt_nobutton,
 #endif
     bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton,
     bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton
