@@ -59,8 +59,11 @@ int buttonjoy[32] = {
     bt_attack, bt_strafe, bt_use, bt_run, bt_esc, bt_prevweapon, bt_nobutton, bt_nextweapon,
     bt_pause, bt_strafeleft, bt_straferight, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton,
 #else
-    bt_attack, bt_strafe, bt_use, bt_run, bt_strafeleft, bt_straferight, bt_esc, bt_pause,
-    bt_prevweapon, bt_nextweapon, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton,
+    //bt_attack, bt_strafe, bt_use, bt_run, bt_strafeleft, bt_straferight, bt_esc, bt_pause,
+    //bt_prevweapon, bt_nextweapon, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton,
+    // GBZ controller
+    bt_nobutton, bt_nobutton, bt_nobutton, bt_attack, bt_escape, bt_run, bt_nobutton, bt_nextweapon, 
+    bt_straferight, bt_nobutton, bt_strafeleft, bt_use, bt_pause, bt_nobutton, bt_nobutton, bt_nobutton
 #endif
     bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton,
     bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton, bt_nobutton
@@ -211,7 +214,7 @@ int songs[] = {
     XFUNKIE_MUS,
     XDEATH_MUS,
     XGETYOU_MUS,                // DON'T KNOW
-    ULTIMATE_MUS,               // Trans Grîsse
+    ULTIMATE_MUS,               // Trans Gr‚Äùsse
 
     DUNGEON_MUS,
     GOINGAFT_MUS,
